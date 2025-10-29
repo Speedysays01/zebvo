@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
 import { motion, useAnimation } from "framer-motion";
-import hero from "../assets/hero.png";
+import hero from "../assets/dashboard.png";
 import {
   Database,
   Send,
@@ -97,7 +97,7 @@ const Hero = () => {
         animate={{ opacity: 1, y: 0 }}
         transition={{ duration: 0.8, delay: 0.2, ease: "easeOut" }}
       >
-        Build, deploy, and scale your AI solutions — all in one seamless workspace.
+        Unite the power of every leading AI: ChatGPT, Claude, Gemini, and more... to create, code, and design in one intelligent workspace.
       </motion.p>
 
       <motion.a
