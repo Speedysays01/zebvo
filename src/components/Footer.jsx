@@ -19,8 +19,8 @@ export default function Footer() {
           </div>
 
           <p className="text-gray-400 mb-6 leading-relaxed">
-            Unite the power of every leading AI — ChatGPT, Claude, Gemini, and
-            more — to create, code, and design in one intelligent workspace.
+            Unite the power of every leading AI ChatGPT, Claude, Gemini, and
+            more  to create, code, and design in one intelligent workspace.
           </p>
 
           <h3 className="text-lg font-semibold mb-2">Contact us</h3>

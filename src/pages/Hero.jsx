@@ -100,15 +100,19 @@ const Hero = () => {
         Unite the power of every leading AI: ChatGPT, Claude, Gemini, and more... to create, code, and design in one intelligent workspace.
       </motion.p>
 
-      <motion.a
-        href="#demo"
-        className="bg-indigo-500 hover:bg-indigo-600 text-white font-semibold py-3 px-8 rounded-lg shadow-lg flex items-center gap-2 transition relative z-10"
-        initial={{ opacity: 0, y: 20 }}
-        animate={{ opacity: 1, y: 0 }}
-        transition={{ duration: 0.8, delay: 0.4, ease: "easeOut" }}
-      >
-        → Get a Demo
-      </motion.a>
+   <motion.a
+  href="#demo"
+  className="bg-white text-black font-semibold py-3 px-8 rounded-4xl shadow-lg flex items-center gap-3 transition hover:scale-105 hover:shadow-xl relative z-10"
+  initial={{ opacity: 0, y: 20 }}
+  animate={{ opacity: 1, y: 0 }}
+  transition={{ duration: 0.8, delay: 0.4, ease: 'easeOut' }}
+>
+  <span className="flex items-center justify-center w-8 h-8 rounded-full bg-indigo-500 text-white text-lg">
+    →
+  </span>
+  Try Zebvo.AI for free
+</motion.a>
+
 
       <motion.img
         src={hero}

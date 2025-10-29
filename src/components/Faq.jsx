@@ -66,7 +66,7 @@ export default function Faq() {
               <AnimatePresence>
                 {openIndex === index && (
                   <motion.div
-                    className="px-6 pb-5 text-gray-300 text-base"
+                    className="px-6 pb-5 text-gray-300 text-base text-justify"
                     initial={{ height: 0, opacity: 0 }}
                     animate={{ height: "auto", opacity: 1 }}
                     exit={{ height: 0, opacity: 0 }}
