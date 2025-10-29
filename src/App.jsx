@@ -4,6 +4,7 @@ import Hero from "./pages/Hero";
 import AuthPage from "./pages/AuthPage";
 import Navbar from "./components/Navbar"; // assuming you have this
 import Faq from "./components/Faq";
+import Pricing from "./components/Pricing"
 import Footer from "./components/Footer";
 
 function App() {
@@ -16,6 +17,7 @@ function App() {
     element={
       <>
         <Hero />
+        <Pricing/>
         <Faq />
         <Footer/>
       </>
